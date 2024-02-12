@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title><link rel="stylesheet" href="style.css">
+</head>
+<body class="kkrr">
+    <div>
+
+        <!-- Create the navigation bar -->
+        <div class="navbar">
+            <!-- Create the logo -->
+            <div class="logo">Priyanshu Store</div>
+            <!-- Create the menu button for small screens -->
+            <div class="menu-button" onclick="toggleMenu()">&#9776;</div>
+            <!-- Create the links -->
+            <ul class="nav-links" id="nav-links">
+                <li><a href="friend.html" class="nav-link active">Home</a></li>
+                <li><a href="product.html" class="nav-link">Products</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+            <!-- Create the search box -->
+            <div class="search-box">
+                <input type="text" class="search-input" placeholder="Search...">
+                <button class="search-button">&#128269;</button>
+            </div>
+            <!-- Create the cart icon -->
+            <div class="cart-icon">&#128722;</div>
+        </div>
+
+        <!-- Add some JavaScript to toggle the menu on small screens -->
+        <script>
+            // Get the menu button and the links
+            var menuButton = document.querySelector(".menu-button");
+            var navLinks = document.querySelector("#nav-links");
+
+            // Define a function to show or hide the links
+            function toggleMenu() {
+                // If the links are hidden, show them
+                if (navLinks.style.display === "none") {
+                    navLinks.style.display = "flex";
+                    menuButton.innerHTML = "&#10006;"; // Change the menu button to a cross
+                }
+                // Otherwise, hide them
+                else {
+                    navLinks.style.display = "none";
+                    menuButton.innerHTML = "&#9776;"; // Change the menu button to a hamburger
+                }
+            }
+        </script>
+    </div>
+    <h1><h1><h1 style="text-align: center; color: red; background-color: gold;">COMMING SOON!!</h1></h1></h1>
+    
+</body>
+</html>

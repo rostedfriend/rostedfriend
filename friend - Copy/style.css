@@ -1,0 +1,147 @@
+.body {
+  background-color: rgb(152, 148, 160);
+}
+
+.name {
+  background-color: rgb(140, 130, 150);
+}
+
+/* Style the navigation bar */
+.navbar {
+  display: flex;
+  align-items: center;
+  background-color: #f0f0f0;
+  border-bottom: 1px solid #ccc;
+}
+
+/* Style the logo */
+.logo {
+  margin: 10px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Style the links */
+.nav-links {
+  display: flex;
+  flex: 1;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-link {
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #333;
+}
+
+.nav-link:hover {
+  background-color: #eee;
+}
+
+/* Style the active link */
+.active {
+  background-color: #ddd;
+}
+
+/* Style the search box */
+.search-box {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.search-input {
+  width: 200px;
+  border: none;
+  outline: none;
+}
+
+.search-button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+/* Style the cart icon */
+.cart-icon {
+  margin: 10px;
+  font-size: 24px;
+  color: #333;
+}
+
+/* Make the navbar responsive */
+@media (max-width: 768px) {
+
+  /* Hide the links on small screens */
+  .nav-links {
+    display: none;
+  }
+
+  /* Show a menu button on small screens */
+  .menu-button {
+    display: block;
+    margin: 10px;
+    font-size: 24px;
+    color: #333;
+    cursor: pointer;
+  }
+
+  /* Show the links when the menu button is clicked */
+  .show {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.back1 {
+  background-image: url(/OIG4.jpg);
+  margin-left: 20px;
+  margin-right: 20px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.back2 {
+  margin-left: 600px;
+  background-color: rgb(169, 123, 196);
+}
+
+.bk {
+  background-color: chartreuse;
+}
+
+.bkk {
+  background-color: rgba(127, 206, 243, 0.76);
+
+}
+
+.mm {
+  background-color: aquamarine;
+  text-align: center;
+  border:9px blue double;
+  border-radius: 20px;
+}
+
+.kkr {
+  background-image: url(/Designer.png);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.na{
+  background-color: red;
+  color: pink;
+}
+.kkrr{
+  background-image: url(/Designer.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
